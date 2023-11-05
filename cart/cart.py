@@ -72,3 +72,4 @@ class Cart:
         del self.session[settings.CART_SESSION_ID]
         self.save()
 
+
