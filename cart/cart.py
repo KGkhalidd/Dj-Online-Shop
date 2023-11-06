@@ -21,10 +21,10 @@ class Cart:
         #if the product does exist in cart and want to update its quantity
         #if u want a new quantity and skip previous quantity
         if override_quantity:
-            self.cart[product_id][quantity]= quantity
+            self.cart[product_id]['quantity']= quantity
         #if u want to add a quantity to a previous one 
         else:
-            self.cart[product_id][quantity]+= quantity
+            self.cart[product_id]['quantity']+= quantity
         # save the cart to session
         self.save()
 
