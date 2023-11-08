@@ -19,7 +19,7 @@
                         {{ total_items }} item{{ total_items|pluralize }},
                         ${{ cart.get_total_price }}
                     </a>
-                {% else %}
+                {% elif not order %} <!-- if total_items =0 and the template don't have 'order' as context rendered -->
                     Your cart is empty.
                 {% endif %}
                 {% endwith %}
