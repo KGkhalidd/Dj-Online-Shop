@@ -120,3 +120,13 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 CART_SESSION_ID = 'cart'
+
+#settings for email
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'khaledgamal1345@gmail.com'
+EMAIL_HOST_PASSWORD = 'nxbm irsi nwqf lnet'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
