@@ -1,0 +1,35 @@
+[2023-11-14 04:55:23,135: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-11-14 04:55:23,175: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2023-11-14 04:55:23,235: WARNING/MainProcess] F:\projects\djMyShop\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-11-14 04:55:23,236: INFO/MainProcess] celery@khaledGamal ready.
+[2023-11-14 04:55:45,552: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-11-14 04:55:45,589: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2023-11-14 04:55:45,632: WARNING/MainProcess] F:\projects\djMyShop\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-11-14 04:55:45,632: INFO/MainProcess] celery@khaledGamal ready.
+[2023-11-14 04:55:55,108: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-11-14 04:55:55,151: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2023-11-14 04:55:55,196: WARNING/MainProcess] F:\projects\djMyShop\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-11-14 04:55:55,196: INFO/MainProcess] celery@khaledGamal ready.
+[2023-11-14 04:56:00,906: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-11-14 04:56:00,941: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2023-11-14 04:56:00,978: WARNING/MainProcess] F:\projects\djMyShop\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-11-14 04:56:00,979: INFO/MainProcess] celery@khaledGamal ready.
+[2023-11-14 04:57:40,658: WARNING/MainProcess] No hostname was supplied. Reverting to default 'localhost'
+[2023-11-14 04:57:40,693: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2023-11-14 04:57:40,735: WARNING/MainProcess] F:\projects\djMyShop\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-11-14 04:57:40,735: INFO/MainProcess] celery@khaledGamal ready.

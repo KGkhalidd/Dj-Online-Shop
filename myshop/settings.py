@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
 ]
 
 MIDDLEWARE = [
@@ -124,9 +125,13 @@ CART_SESSION_ID = 'cart'
 #settings for email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'khaledgamal1345@gmail.com'
-EMAIL_HOST_PASSWORD = 'nxbm irsi nwqf lnet'
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+# Stripe settings
+STRIPE_PUBLISHABLE_KEY = config('STRIPE_PUBLISHABLE_KEY') # Publishable key
+STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY') # Secret key
+STRIPE_API_VERSION = '2022-08-01'
