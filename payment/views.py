@@ -18,6 +18,7 @@ def payment_process(request):
         #prepare the data needed for creating the session
         session_data = {
             'mode': 'payment',
+            'client_reference_id': order.id,
             'success_url': success_url,
             'cancel_url': cancel_url,
             'line_items': []
