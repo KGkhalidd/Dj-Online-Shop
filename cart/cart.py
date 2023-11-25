@@ -13,6 +13,9 @@ class Cart:
             #create one 'by setting an empty dict' in the session
             cart = self.session[settings.CART_SESSION_ID]= {}
         self.cart = cart
+        # store current applied coupon in cart
+        self.coupon_id = self.session.get('coupon_id')
+
 
     def add(self, product, quantity=1, override_quantity=False):
         product_id = str(product.id)
